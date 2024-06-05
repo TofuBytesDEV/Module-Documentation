@@ -5,8 +5,10 @@ layout: default
 
 <h3>UpdateCampaign(planetName,activeStatus,campaignType,resetProgress,defendDate)</h3>
 
+
 {: .note }
 This feature is still in development and parameters may change.
+
 
 | Parameters     | Value Type | Use          |
 |:---------------|:-----------|:-------------|
@@ -16,7 +18,7 @@ This feature is still in development and parameters may change.
 | resetProgress `required`  | Boolean    | Determines whether the progression of the planet should be reset back to 0%.|
 | defendDate `optional`     | Int        | The end date of a defend campaign will be checked by the game. This value uses the epoch time values and must be formatted in Epoch. |
 
-<h6>Example</h6>
+<h5>Example</h5>
 
 ```Lua
 local campaignModule = require(17541574273)
@@ -27,7 +29,7 @@ campaignModule.UpdateCampaign("Utao",true,2,false,1716580800)
 
 <h3>UpdatePlanetProgression(planetName,rewardedPoints)</h3>
 
-<h6>Example</h6>
+<h5>Example</h5>
 
 ```Lua
 local campaignModule = require(17541574273)
