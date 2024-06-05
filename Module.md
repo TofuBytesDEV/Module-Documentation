@@ -3,6 +3,7 @@ title: Module Test
 layout: default
 ---
 
+Below is a preview of some data tables markdown with Lua:
 ```Lua
 data = {
 planetName = planetName,
