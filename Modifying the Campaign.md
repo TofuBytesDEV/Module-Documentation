@@ -7,7 +7,7 @@ layout: default
 
 | Parameters     | Value Type | Use          |
 |:---------------|:-----------|:-------------|
-| planetName required {: .label } | String     | The name of the planet that will be updated. |
+| planetName `required` | String     | The name of the planet that will be updated. |
 | activeStatus `required`   | Boolean    | The status on whether players have access to the planet. This will also determine whether it is highlighted on the galactic map or not. |
 | campaignType `required`   | Int        | Determines what type of campaign or mission types will be available. `0 = not active`, `1 = offense`, `2 = defend` |
 | resetProgress `required`  | Boolean    | Determines whether the progression of the planet should be reset back to 0%.|
