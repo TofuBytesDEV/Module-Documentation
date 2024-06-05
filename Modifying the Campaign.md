@@ -5,8 +5,9 @@ layout: default
 
 <h3>UpdateCampaign(planetName,activeStatus,campaignType,resetProgress,defendDate)</h3>
 
-{: .note }
+{: .highlight }
 A paragraph
+
 
 | Parameters     | Value Type | Use          |
 |:---------------|:-----------|:-------------|
