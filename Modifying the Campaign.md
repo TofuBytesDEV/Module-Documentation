@@ -4,6 +4,14 @@ layout: default
 ---
 
 <h3>UpdateCampaign(planetName,activeStatus,campaignType,resetProgress,defendDate)</h3>
+| Parameters     | Value Type |
+|:---------------|:-----------|
+| planetName     | String     |
+| activeStatus   | Boolean    |
+| campaignType   | Int        |
+| resetProgress  | Boolean    |
+| defendDate     | Int        |
+
 
 ```Lua
 local campaignModule = require(17541574273)
