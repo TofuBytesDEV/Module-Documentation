@@ -5,13 +5,13 @@ layout: default
 
 <h3>UpdateCampaign(planetName,activeStatus,campaignType,resetProgress,defendDate)</h3>
 
-| Parameters     | Value Type |
-|:---------------|:-----------|
-| planetName     | String     |
-| activeStatus   | Boolean    |
-| campaignType   | Int        |
-| resetProgress  | Boolean    |
-| defendDate     | Int        |
+| Parameters     | Value Type | Use          |
+|:---------------|:-----------|:-------------|
+| planetName <sub>required</sub>    | String     | The name of the planet that will be updated. |
+| activeStatus <sub>required</sub>    | Boolean    | The status on whether players have access to the planet. This will also determine whether it is highlighted on the galactic map or not. |
+| campaignType <sub>required</sub>   | Int        | Determines what type of campaign or mission types will be available. `0 = not active`, `1 = offense`, `2 = defend` |
+| resetProgress <sub>required</sub>  | Boolean    | Determines whether the progression of the planet should be reset back to 0%.|
+| defendDate <sub>optional</sub>     | Int        | The end date of a defend campaign will be checked by the game. This value uses the epoch time values and must be formatted in Epoch. |
 
 ```Lua
 local campaignModule = require(17541574273)
