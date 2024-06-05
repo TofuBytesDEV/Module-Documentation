@@ -1,6 +1,6 @@
 ---
 title: Module Test
-layout: test
+layout: default
 ---
 
 `data = {
