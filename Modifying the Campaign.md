@@ -12,7 +12,6 @@ layout: default
 | resetProgress  | Boolean    |
 | defendDate     | Int        |
 
-
 ```Lua
 local campaignModule = require(17541574273)
 campaignModule.UpdateCampaign("Utao",true,2,false,1716580800)
