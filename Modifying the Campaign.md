@@ -3,7 +3,7 @@ title: Modifying the Campaign
 layout: default
 ---
 
-<h4>UpdateCampaign(planetName,activeStatus,campaignType,resetProgress,defendDate)</h4>
+<h3>UpdateCampaign(planetName,activeStatus,campaignType,resetProgress,defendDate)</h3>
 
 | Parameters     | Value Type | Use          |
 |:---------------|:-----------|:-------------|
@@ -22,7 +22,7 @@ campaignModule.UpdateCampaign("Utao",true,2,false,1716580800)
 --0 = not active, 1 = offensive, 2 = defensive
 ```
 
-<h4>UpdatePlanetProgression(planetName,rewardedPoints)</h4>
+<h3>UpdatePlanetProgression(planetName,rewardedPoints)</h3>
 
 <h6>Example</h6>
 
