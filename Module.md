@@ -1,9 +1,12 @@
 ---
-title: Module Test
+title: Planet Data
 layout: default
 ---
 
-Below is a preview of some data tables markdown with Lua:
+<h1>Planet Data</h1>
+
+Planets within the game run off of this data table, each time a new value is added, the datastore referencing this must also account for the new value.
+
 ```Lua
 data = {
 planetName = planetName,
@@ -14,4 +17,4 @@ defenseTimer = 0,
 factionID = 0
 }
 ```
-This is data
+
