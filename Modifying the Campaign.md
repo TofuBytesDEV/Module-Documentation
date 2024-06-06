@@ -34,7 +34,7 @@ UpdateCaptureMax() allows for the Game Master or developers to perform modificat
 | Parameters     | Value Type | Use          |
 |:---------------|:-----------|:-------------|
 | planetName `required` | String     | The name of the planet that will be updated. |
-| successfulCaptureMax `optional`     | Integer        | The maximum number of completed missions for a planet to complete its campaign. |
+| successfulCaptureMax `required`     | Integer        | The maximum number of completed missions for a planet to complete its campaign. |
 
 <h3>Example</h3>
 
