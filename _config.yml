@@ -4,6 +4,9 @@ theme: just-the-docs
 
 url: https://just-the-docs.github.io
 
+# Set a path/url to a favicon that will be displayed by the browser
+favicon_ico: "📋"
+
 # For copy button on code
 enable_copy_code_button: true
 
