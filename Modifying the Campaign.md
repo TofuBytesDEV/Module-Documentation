@@ -21,11 +21,11 @@ UpdateCampaign() allows the Game Master or developers to perform modifications t
 
 <h3>Example</h3>
 
-This code will update the planet `Utao` to `activeStatus = true`, `campaignType = 2` defend, 
+This code will update the planet `Utao` to `activeStatus = true`, `campaignType = 2` defend, `true` reset progress, end time on Wednesday, June 5, 2024 12:00:00 AM, `2` faction, and threshold of 500000
 
 ```Lua
 local campaignModule = require(17541574273)
-campaignModule.UpdateCampaign("Utao",true,2,false,1717570800,2)
+campaignModule.UpdateCampaign("Utao",true,2,false,1717570800,2,500000)
 ```
 
 <h2>UpdateCaptureMax(planetName,successfulCaptureMax)</h2>
