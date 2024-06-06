@@ -1,3 +1,5 @@
 <h1>Hi!</h1>
 
-Welcome to TofuBytes's realm of documentation. This is necessarily just a working notebook that allows myself plus others to reference or learn from while I develop. It's also a great way for me to refresh my memory on what functions or code I wrote and why I wrote it.
+Welcome to TofuBytes's realm of documentation. This is just a working notebook that allows myself plus others to reference from during development. It's also just a quick reference/wiki for me to know which functions to run from my modules.
+
+Take note that although these functions are available for viewing, the code itself that runs on the back-end is closed source.
