@@ -24,7 +24,7 @@ This code will update the planet `Utao` to `activeStatus = true`, `campaignType 
 
 ```Lua
 local campaignModule = require(17541574273)
-campaignModule.UpdateCampaign("Utao",true,2,false,1717570800,2,2000)
+campaignModule.UpdateCampaign("Utao",true,2,false,1717570800,2)
 ```
 
 <h2>UpdateCaptureMax(planetName,successfulCaptureMax)</h2>
