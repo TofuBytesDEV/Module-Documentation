@@ -6,7 +6,7 @@ layout: default
 <h3>UpdateCampaign(planetName,activeStatus,campaignType,resetProgress,defendDate)</h3>
 
 
-{: .warning }
+{: .note }
 This function is still in development and parameters will change without notice.
 
 
