@@ -7,6 +7,8 @@ These functions are still in development and parameters will change without noti
 
 <h2>UpdateCampaign(planetName,activeStatus,campaignType,resetProgress,defendDate)</h2>
 
+UpdateCampaign() allows for the Game Master or developers to perform modifications to the current campaign. The function can be called from inside of the game management script and also called live from the in-game developer console as long as the `require(id)` variable is identified with the function.
+
 | Parameters     | Value Type | Use          |
 |:---------------|:-----------|:-------------|
 | planetName `required` | String     | The name of the planet that will be updated. |
