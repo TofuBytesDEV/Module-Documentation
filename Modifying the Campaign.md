@@ -34,7 +34,7 @@ UpdatePlanetProgression() allows for the Game Master or developers to increase o
 | planetName `required` | String     | The name of the planet that will be updated. |
 | rewardedPoints `required` | Int | The amount of points that will be increased or decreased from the existing total.
 
-<h3>Example</h3>
+<h3>Examples</h3>
 
 <h5>Increasing Points</h5>
 
