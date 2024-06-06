@@ -3,7 +3,7 @@ title: Modifying the Campaign
 layout: default
 ---
 {: .warning }
-These functions are still in development and parameters will change without notice.
+In development and parameters will change without notice.
 
 <h2>UpdateCampaign(planetName,activeStatus,campaignType,resetProgress,defendDate,factionID)</h2>
 
