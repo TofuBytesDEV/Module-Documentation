@@ -32,12 +32,12 @@ UpdatePlanetProgression() allows for the Game Master or developers to increase o
 | Parameters     | Value Type | Use          |
 |:---------------|:-----------|:-------------|
 | planetName `required` | String     | The name of the planet that will be updated. |
-| rewardedPoints `required` | Int | The amount of points that will be increased or decreased from the existing total.
+| rewardedPoints `required` | Int | The number of points that will be increased or decreased from the existing total.
 
 <h3>Examples</h3>
 
 <h5>Increasing Points</h5>
-We are increasing the current progression value for `Utao` by `1000` points.
+We are increasing the current progression value for the planet `Utao` by `1000` points.
 
 ```Lua
 local campaignModule = require(17541574273)
@@ -45,7 +45,7 @@ campaignModule.UpdatePlanetProgression("Utao",1000)
 ```
 
 <h5>Decreasing Points</h5>
-We are decreasing the current progression value for `Utao` by `-1000` points.
+We are decreasing the current progression value for the planet `Utao` by `-1000` points.
 
 ```Lua
 local campaignModule = require(17541574273)
