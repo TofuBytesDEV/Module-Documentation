@@ -21,7 +21,7 @@ UpdateCampaign() allows the Game Master or developers to perform modifications t
 
 <h3>Example</h3>
 
-This code will update the planet `Utao` to `activeStatus = true`, `campaignType = 2` defend, `true` reset progress, end time on Wednesday, June 5, 2024 12:00:00 AM, `2` faction, and threshold of 500000
+This code will update the planet `Utao` to `activeStatus = true`, `campaignType = 2` defend, `true` reset progress, end time on Wednesday, June 5, 2024 12:00:00 AM, `2` faction, and campaign threshold of 500,000.
 
 ```Lua
 local campaignModule = require(17541574273)
@@ -42,7 +42,7 @@ UpdateCaptureMax() allows the Game Master or developers to update the threshold 
 
 <h3>Example</h3>
 
-This code will update the planet Utao to succeed after reaching 2000 successful missions.
+This code will update the planet Utao to succeed after reaching 2,000 successful missions.
 
 ```Lua
 local campaignModule = require(17541574273)
@@ -61,7 +61,7 @@ UpdatePlanetProgression() allows the Game Master or developers to increase or de
 <h3>Examples</h3>
 
 <h5>Increasing Points</h5>
-This code will increase the current progression value for the planet Utao by 1000 points.
+This code will increase the current progression value for the planet Utao by 1,000 points.
 
 ```Lua
 local campaignModule = require(17541574273)
@@ -69,7 +69,7 @@ campaignModule.UpdatePlanetProgression("Utao",1000)
 ```
 
 <h5>Decreasing Points</h5>
-This code will decrease the current progression value for the planet Utao by 1000 points.
+This code will decrease the current progression value for the planet Utao by 1,000 points.
 
 ```Lua
 local campaignModule = require(17541574273)
