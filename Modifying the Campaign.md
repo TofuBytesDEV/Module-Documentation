@@ -29,16 +29,16 @@ campaignModule.UpdateCampaign("Utao",true,2,false,1717570800,2)
 
 <h2>UpdateCaptureMax(planetName,successfulCaptureMax)</h2>
 
-UpdateCaptureMax() allows the Game Master or developers to update to the required number of completed missions for a planet to complete its campaign. The function can be called from inside of the game management script and also called live from the in-game developer console as long as the `require(id)` variable is identified with the function.
+UpdateCaptureMax() allows the Game Master or developers to update the threshold of completed missions for a planet to succeed in its campaign. The function can be called from inside of the game management script and also called live from the in-game developer console as long as the `require(id)` variable is identified with the function.
 
 | Parameters     | Value Type | Use          |
 |:---------------|:-----------|:-------------|
 | planetName `required` | String     | The name of the planet that will be updated. |
-| successfulCaptureMax `required`     | Integer        | The required number of completed missions for a planet to complete its campaign. |
+| successfulCaptureMax `required`     | Integer        | The threshold number of completed missions for a planet to succeed in its campaign. |
 
 <h3>Example</h3>
 
-This code will update the planet Utao to require 2000 successful missions.
+This code will update the planet Utao to succeed after reaching 2000 successful missions.
 
 ```Lua
 local campaignModule = require(17541574273)
