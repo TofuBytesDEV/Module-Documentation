@@ -15,7 +15,7 @@ UpdateCampaign() allows for the Game Master or developers to perform modificatio
 | activeStatus `required`   | Boolean    | The status on whether players have access to the planet. This will also determine whether it is highlighted on the galactic map or not. `true` or `false` |
 | campaignType `required`   | Int        | The current type of campaign of the planet. `0` = not active, `1` = offense, `2` = defend |
 | resetProgress `required`  | Boolean    | Determines whether the progression of the planet should be reset back to 0%. `true` or `false` |
-| defendDate `required`     | Int        | The end date and time of a defend campaign. This value is only referenced when `campaignType = 2` and uses the Int as an Epoch time value. As such, time must be converted int in Epoch. |
+| defendDate `required`     | Int        | The end date and time of a defend campaign. This value is only referenced when `campaignType = 2` and uses the Int as an Unix time value. As such, time must be converted into in Unix. |
 | factionID `required`     | Int        | The ID of the current faction that the planet is associated with. `0` = None, `1` = Earth, `2` = ?, `3` = ? |
 
 <h3>Example</h3>
