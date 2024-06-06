@@ -7,7 +7,7 @@ These functions are still in development and parameters will change without noti
 
 <h2>UpdateCampaign(planetName,activeStatus,campaignType,resetProgress,defendDate,factionID)</h2>
 
-UpdateCampaign() allows for the Game Master or developers to perform modifications to the current campaign. The function can be called from inside of the game management script and also called live from the in-game developer console as long as the `require(id)` variable is identified with the function.
+UpdateCampaign() allows the Game Master or developers to perform modifications to the current campaign. The function can be called from inside of the game management script and also called live from the in-game developer console as long as the `require(id)` variable is identified with the function.
 
 | Parameters     | Value Type | Use          |
 |:---------------|:-----------|:-------------|
@@ -47,7 +47,7 @@ campaignModule.UpdateCaptureMax("Utao",2000)
 
 <h2>UpdatePlanetProgression(planetName,rewardedPoints)</h2>
 
-UpdatePlanetProgression() allows for the Game Master or developers to increase or decrease the current progression points of a planet. The function is typically called inside of planet mission scripts but can also be called live from the in-game developer console as long as the `require(id)` variable is identified with the function.
+UpdatePlanetProgression() allows the Game Master or developers to increase or decrease the current progression points of a planet. The function is typically called inside of planet mission scripts but can also be called live from the in-game developer console as long as the `require(id)` variable is identified with the function.
 
 | Parameters     | Value Type | Use          |
 |:---------------|:-----------|:-------------|
