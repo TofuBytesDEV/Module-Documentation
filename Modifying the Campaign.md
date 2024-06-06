@@ -13,10 +13,10 @@ UpdateCampaign() allows for the Game Master or developers to perform modificatio
 |:---------------|:-----------|:-------------|
 | planetName `required` | String     | The name of the planet that will be updated. |
 | activeStatus `required`   | Boolean    | The status on whether players have access to the planet. This will also determine whether it is highlighted on the galactic map or not. `true` or `false` |
-| campaignType `required`   | Int        | The current type of campaign of the planet. `0` = not active, `1` = offense, `2` = defend |
+| campaignType `required`   | Integer        | The current type of campaign of the planet. `0` = not active, `1` = offense, `2` = defend |
 | resetProgress `required`  | Boolean    | Determines whether the progression of the planet should be reset back to 0%. `true` or `false` |
-| defendDate `required`     | Int        | The end date and time of a defend campaign. This value is only referenced when `campaignType = 2` and uses the Int as an Unix time value. As such, time must be converted into in Unix. |
-| factionID `required`     | Int        | The ID of the current faction that the planet is associated with. `0` = None, `1` = Earth, `2` = ?, `3` = ? |
+| defendDate `required`     | Integer        | The end date and time of a defend campaign. This value is only referenced when `campaignType = 2` and uses the Int as an Unix time value. As such, time must be converted into in Unix. |
+| factionID `required`     | Integer        | The ID of the current faction that the planet is associated with. `0` = None, `1` = Earth, `2` = ?, `3` = ? |
 
 <h3>Example</h3>
 
@@ -32,7 +32,7 @@ UpdatePlanetProgression() allows for the Game Master or developers to increase o
 | Parameters     | Value Type | Use          |
 |:---------------|:-----------|:-------------|
 | planetName `required` | String     | The name of the planet that will be updated. |
-| rewardedPoints `required` | Int | The number of points that will be increased or decreased from the existing total.
+| rewardedPoints `required` | Integer | The number of points that will be increased or decreased from the existing total.
 
 <h3>Examples</h3>
 
