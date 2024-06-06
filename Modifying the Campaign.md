@@ -2,13 +2,10 @@
 title: Modifying the Campaign
 layout: default
 ---
+{: .note }
+These functions are still in development and parameters will change without notice.
 
 <h3>UpdateCampaign(planetName,activeStatus,campaignType,resetProgress,defendDate)</h3>
-
-
-{: .note }
-This function is still in development and parameters will change without notice.
-
 
 | Parameters     | Value Type | Use          |
 |:---------------|:-----------|:-------------|
