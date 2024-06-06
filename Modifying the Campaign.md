@@ -17,12 +17,15 @@ UpdateCampaign() allows for the Game Master or developers to perform modificatio
 | resetProgress `required`  | Boolean    | Determines whether the progression of the planet should be reset back to 0%. `true` or `false` |
 | defendDate `required`     | Integer        | The end date and time of a defend campaign. This value is only referenced when `campaignType = 2` and uses the Int as an Unix time value. As such, the date and time must be converted into Unix. |
 | factionID `required`     | Integer        | The ID of the current faction that the planet is associated with. `0` = None, `1` = Earth, `2` = ?, `3` = ? |
+| successfulCaptureMax `optional`     | Integer        | The maximum number of completed missions for a planet to complete it's campaign. |
 
 <h3>Example</h3>
 
+This code will update the planet `Utao` to `activeStatus = true`, `campaignType = 2` defend, 
+
 ```Lua
 local campaignModule = require(17541574273)
-campaignModule.UpdateCampaign("Utao",true,2,false,1716580800)
+campaignModule.UpdateCampaign("Utao",true,2,false,1717570800,2,2000)
 ```
 
 <h2>UpdatePlanetProgression(planetName,rewardedPoints)</h2>
@@ -37,7 +40,7 @@ UpdatePlanetProgression() allows for the Game Master or developers to increase o
 <h3>Examples</h3>
 
 <h5>Increasing Points</h5>
-We are increasing the current progression value for the planet `Utao` by `1000` points.
+This code will increase the current progression value for the planet Utao by 1000 points.
 
 ```Lua
 local campaignModule = require(17541574273)
@@ -45,7 +48,7 @@ campaignModule.UpdatePlanetProgression("Utao",1000)
 ```
 
 <h5>Decreasing Points</h5>
-We are decreasing the current progression value for the planet `Utao` by `-1000` points.
+This code will decrease the current progression value for the planet Utao by 1000 points.
 
 ```Lua
 local campaignModule = require(17541574273)
