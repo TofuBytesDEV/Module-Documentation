@@ -17,7 +17,7 @@ UpdateCampaign() allows for the Game Master or developers to perform modificatio
 | resetProgress `required`  | Boolean    | Determines whether the progression of the planet should be reset back to 0%. `true` or `false` |
 | defendDate `required`     | Integer        | The end date and time of a defend campaign. This value is only referenced when `campaignType = 2` and uses the Int as an Unix time value. As such, the date and time must be converted into Unix. |
 | factionID `required`     | Integer        | The ID of the current faction that the planet is associated with. `0` = None, `1` = Earth, `2` = ?, `3` = ? |
-| successfulCaptureMax `optional`     | Integer        | The maximum number of completed missions for a planet to complete it's campaign. |
+| successfulCaptureMax `optional`     | Integer        | The maximum number of completed missions for a planet to complete its campaign. |
 
 <h3>Example</h3>
 
