@@ -5,7 +5,7 @@ layout: default
 {: .note }
 These functions are still in development and parameters will change without notice.
 
-<h3>UpdateCampaign(planetName,activeStatus,campaignType,resetProgress,defendDate)</h3>
+<h2>UpdateCampaign(planetName,activeStatus,campaignType,resetProgress,defendDate)</h2>
 
 | Parameters     | Value Type | Use          |
 |:---------------|:-----------|:-------------|
@@ -22,7 +22,7 @@ local campaignModule = require(17541574273)
 campaignModule.UpdateCampaign("Utao",true,2,false,1716580800)
 ```
 
-<h3>UpdatePlanetProgression(planetName,rewardedPoints)</h3>
+<h2>UpdatePlanetProgression(planetName,rewardedPoints)</h2>
 
 <h5>Example</h5>
 
