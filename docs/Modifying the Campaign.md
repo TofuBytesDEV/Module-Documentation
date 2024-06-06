@@ -21,7 +21,7 @@ UpdateCampaign() allows the Game Master or developers to perform modifications t
 
 <h3>Example</h3>
 
-This code will update the planet `Utao` to `activeStatus = true`, `campaignType = 2` defend, `true` reset progress, end time on `Wednesday, June 5, 2024 12:00:00 AM`, faction `2`, and campaign threshold of `500,000`.
+This code will update the planet Utao to active, defend campaign, and reset the progress with the end date/time of `Wednesday, June 5, 2024 12:00:00 AM`, faction 2, with a success threshold of 500,000.
 
 ```lua
 local campaignModule = require(17541574273)
