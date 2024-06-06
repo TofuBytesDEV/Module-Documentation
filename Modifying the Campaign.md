@@ -31,7 +31,7 @@ campaignModule.UpdateCampaign("Utao",true,2,false,1717570800,2,500000)
 <h2>UpdateCaptureMax(planetName,successfulCaptureMax)</h2>
 
 {: .note }
-This function is useful if you have an active campaign and want to only adjust the threshold.
+This function is useful if you have an active campaign and want to adjust the threshold only.
 
 UpdateCaptureMax() allows the Game Master or developers to update the threshold of completed missions for a planet to succeed in its campaign. The function can be called from inside of the game management script and also called live from the in-game developer console as long as the `require(id)` variable is identified with the function.
 
