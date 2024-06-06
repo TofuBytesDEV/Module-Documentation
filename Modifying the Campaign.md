@@ -18,7 +18,7 @@ UpdateCampaign() allows for the Game Master or developers to perform modificatio
 | defendDate `required`     | Int        | The end date of a defend campaign will be checked by the game. This value uses the epoch time values and must be formatted in Epoch. |
 | factionID `required`     | Int        | The ID of the current faction that the planet is associated with. `0` = None, `1` = Earth, `2` = ?, `3` = ? |
 
-<h5>Example</h5>
+<h3>Example</h3>
 
 ```Lua
 local campaignModule = require(17541574273)
@@ -27,7 +27,7 @@ campaignModule.UpdateCampaign("Utao",true,2,false,1716580800)
 
 <h2>UpdatePlanetProgression(planetName,rewardedPoints)</h2>
 
-<h5>Example</h5>
+<h3>Example</h3>
 
 ```Lua
 local campaignModule = require(17541574273)
