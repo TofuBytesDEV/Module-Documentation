@@ -9,7 +9,7 @@ parent: Modifying the Campaign
 {: .note }
 If you have an active campaign, this function is useful when adjusting only the active status. Can also be used to disable the planet after a defend campaign.
 
-UpdateCaptureMax() allows the Game Master or developers to update a planet's active status. The function can be called from inside of the game management script and also called live from the in-game developer console as long as the `require(id)` variable is identified with the function.
+UpdateActiveStatus() allows the Game Master or developers to update a planet's active status. The function can be called from inside of the game management script and also called live from the in-game developer console as long as the `require(id)` variable is identified with the function.
 
 | Parameters     | Value Type | Use          |
 |:---------------|:-----------|:-------------|
