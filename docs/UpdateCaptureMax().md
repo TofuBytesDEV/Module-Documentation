@@ -2,7 +2,7 @@
 title: UpdateCaptureMax()
 layout: default
 
-has_children: true
+parent: Modifying the Campaign
 ---
 <h2>UpdateCaptureMax(planetName,successfulCaptureMax)</h2>
 
