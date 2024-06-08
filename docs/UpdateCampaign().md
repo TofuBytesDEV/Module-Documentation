@@ -1,5 +1,5 @@
 ---
-title: Modifying the Campaign
+title: UpdateCampaign()
 layout: default
 parent: Modifying the Campaign
 ---
