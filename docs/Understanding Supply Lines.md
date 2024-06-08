@@ -10,5 +10,5 @@ When configuring a planet with a supply line, the planet uses a `Beam` object wi
 
 | Property     | Value Type |
 |:---------------|:-----------|
-| Attachment0 | Destination |
-| Attachment1 | Source |
+| Attachment0 | Destination - Current Planet |
+| Attachment1 | Source - Previous Planet |
