@@ -2,6 +2,7 @@
 title: Modifying the Campaign
 layout: default
 parent: Modifying the Campaign
+nav_order: 2
 ---
 
 <h2>UpdateCampaign(planetName,activeStatus,campaignType,resetProgress,defendDate,factionID)</h2>
