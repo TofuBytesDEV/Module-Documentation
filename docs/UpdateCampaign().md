@@ -17,7 +17,7 @@ UpdateCampaign() allows the Game Master or developers to perform modifications t
 | defendDate `required`     | Integer        | The end date and time of a defend campaign. This value is only referenced when `campaignType = 2` and uses the Int as an Unix time value. As such, the date and time must be converted into Unix. |
 | factionID `required`     | Integer        | The ID of the current faction that the planet is associated with. `0` = None, `1` = Earth, `2` = ?, `3` = ? |
 | successfulCaptureMax `required`     | Integer        | The threshold number of completed missions for a planet to succeed in its campaign. |
-| setToOffense `required` | Boolean | Determines whether the campaign will remain active and covert to an offense campaign when the defend campaign fails. |
+| setToOffense `required` | Boolean | Determines whether the campaign will remain active and covert to an offense campaign when the defend campaign fails. `true` or `false` |
 
 <h3>Example</h3>
 
