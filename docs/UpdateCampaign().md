@@ -4,7 +4,7 @@ layout: default
 parent: Modifying the Campaign
 ---
 
-<h2>UpdateCampaign(planetName,activeStatus,campaignType,resetProgress,defendDate,factionID,,setToOffense)</h2>
+<h2>UpdateCampaign(planetName,activeStatus,campaignType,resetProgress,defendDate,factionID,successfulCaptureMax,setToOffense)</h2>
 
 UpdateCampaign() allows the Game Master or developers to perform modifications to the current campaign. The function can be called from inside of the game management script and also called live from the in-game developer console as long as the `require(id)` variable is identified with the function.
 
