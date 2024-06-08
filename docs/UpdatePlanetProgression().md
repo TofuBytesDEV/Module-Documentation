@@ -2,7 +2,7 @@
 title: UpdatePlanetProgression()
 layout: default
 
-has_children: true
+parent: Modifying the Campaign
 ---
 <h2>UpdatePlanetProgression(planetName,rewardedPoints)</h2>
 
