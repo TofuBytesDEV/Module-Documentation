@@ -9,7 +9,7 @@ parent: Modifying the Campaign
 {: .note }
 If you have an active campaign, this function is useful when adjusting only the active status. Can also be used to disable the planet after a defend campaign.
 
-UpdateCaptureMax() allows the Game Master or developers to update the threshold of completed missions for a planet to succeed in its campaign. The function can be called from inside of the game management script and also called live from the in-game developer console as long as the `require(id)` variable is identified with the function.
+UpdateCaptureMax() allows the Game Master or developers to update a planet's active status. The function can be called from inside of the game management script and also called live from the in-game developer console as long as the `require(id)` variable is identified with the function.
 
 | Parameters     | Value Type | Use          |
 |:---------------|:-----------|:-------------|
@@ -18,7 +18,7 @@ UpdateCaptureMax() allows the Game Master or developers to update the threshold 
 
 <h3>Example</h3>
 
-This code will update the planet Utao to active status.
+This code will update the planet Utao to active status to `true`.
 
 ```lua
 local campaignModule = require(17541574273)
