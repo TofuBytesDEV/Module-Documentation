@@ -18,7 +18,7 @@ UpdateActiveStatus() allows the Game Master or developers to update a planet's a
 
 <h3>Example</h3>
 
-This code will update the planet Utao to active status to `true`.
+This code will update the planet Utao to active status to `true` which will enable the supply line.
 
 ```lua
 local campaignModule = require(17541574273)
