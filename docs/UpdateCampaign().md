@@ -4,7 +4,7 @@ layout: default
 parent: Modifying the Campaign
 ---
 
-<h2>UpdateCampaign(planetName,activeStatus,campaignType,resetProgress,defendDate,factionID)</h2>
+<h2>UpdateCampaign(planetName,activeStatus,campaignType,resetProgress,defendDate,factionID,,setToOffense)</h2>
 
 UpdateCampaign() allows the Game Master or developers to perform modifications to the current campaign. The function can be called from inside of the game management script and also called live from the in-game developer console as long as the `require(id)` variable is identified with the function.
 
@@ -17,6 +17,7 @@ UpdateCampaign() allows the Game Master or developers to perform modifications t
 | defendDate `required`     | Integer        | The end date and time of a defend campaign. This value is only referenced when `campaignType = 2` and uses the Int as an Unix time value. As such, the date and time must be converted into Unix. |
 | factionID `required`     | Integer        | The ID of the current faction that the planet is associated with. `0` = None, `1` = Earth, `2` = ?, `3` = ? |
 | successfulCaptureMax `required`     | Integer        | The threshold number of completed missions for a planet to succeed in its campaign. |
+| setToOffense `required` | Boolean | Determines whether the will become offensive active after a defend campaign. |
 
 <h3>Example</h3>
 
