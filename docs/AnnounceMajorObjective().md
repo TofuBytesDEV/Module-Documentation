@@ -1,10 +1,10 @@
 ---
-title: UpdateMajorObjective()
+title: AnnounceMajorObjective()
 layout: default
 
 parent: Modifying the Campaign
 ---
-<h2>UpdateMajorObjective(Body,Objective,Time)</h2>
+<h2>AnnounceMajorObjective(Body,Objective,Time)</h2>
 
 UpdateMajorObjective() allows the Game Master or developers to update the text for a major objective. The function is typically called inside of planet mission scripts but can also be called live from the in-game developer console as long as the `require(id)` variable is identified with the function.
 
@@ -21,5 +21,5 @@ This code will update the major order to inform players of a birthday and to wis
 
 ```lua
 local Module = require(17785084930)
-Module.UpdateMajorObjective("Today is a birthday!","Say Happy Birthday",1717830000)
+Module.AnnounceMajorObjective("Today is a birthday!","Say Happy Birthday",1717830000)
 ```
