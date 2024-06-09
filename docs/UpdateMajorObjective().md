@@ -21,5 +21,5 @@ This code will update the major order to inform players of a birthday and to wis
 
 ```lua
 local Module = require(17785084930)
-Module.UpdateMajorObjective("Today is a birthday make sure to celebrate with cake!","Say Happy Birthday",1717830000)
+Module.UpdateMajorObjective("Today is a birthday!","Say Happy Birthday",1717830000)
 ```
