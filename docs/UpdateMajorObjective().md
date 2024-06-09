@@ -1,5 +1,5 @@
 ---
-title: UpdateMajorOrder()
+title: UpdateMajorObjective()
 layout: default
 
 parent: Modifying the Campaign
