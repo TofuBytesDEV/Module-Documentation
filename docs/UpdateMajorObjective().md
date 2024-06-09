@@ -20,6 +20,6 @@ UpdateMajorObjective() allows the Game Master or developers to update the text f
 This code will update the major order to inform players of a birthday and to wish them a happy birthday, with a timer of June 8, 2024 at 12:00 AM PDT.
 
 ```lua
-local campaignModule = require(17785084930)
-campaignModule.UpdatePlanetProgression("Today is a birthday", "make sure to celebrate with cake!","Say Happy Birthday",1717830000)
+local Module = require(17785084930)
+Module.UpdateMajorObjective("Today is a birthday", "make sure to celebrate with cake!","Say Happy Birthday",1717830000)
 ```
