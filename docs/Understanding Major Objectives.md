@@ -1,5 +1,5 @@
 ---
-title: Major Objectives
+title: Understanding Major Objectives
 layout: default
 
 has_children: true
