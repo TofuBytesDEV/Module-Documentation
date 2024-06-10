@@ -2,7 +2,7 @@
 title: AnnounceMajorObjective()
 layout: default
 
-parent: Modifying the Campaign
+parent: Understanding Major Objectives
 ---
 <h2>AnnounceMajorObjective(Body,Objective,Time)</h2>
 
