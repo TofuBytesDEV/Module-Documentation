@@ -6,7 +6,7 @@ parent: Modifying the Campaign
 ---
 <h2>AnnounceMajorObjective(Body,Objective,Time)</h2>
 
-AnnounceMajorObjective() allows the Game Master or developers to update the text for a major objective. The function is typically called inside of planet mission scripts but can also be called live from the in-game developer console as long as the `require(id)` variable is identified with the function.
+AnnounceMajorObjective() allows the Game Master or developers to update the text for a major objective. The function can be called from inside of the game management script and also called live from the in-game developer console as long as the `require(id)` variable is identified with the function.
 
 | Parameters     | Value Type | Use          |
 |:---------------|:-----------|:-------------|
