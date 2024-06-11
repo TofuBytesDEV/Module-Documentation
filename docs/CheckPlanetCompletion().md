@@ -16,4 +16,4 @@ The function can be called from inside of the game management script.
 
 | Variable     | Value Type | Use          |
 |:---------------|:-----------|:-------------|
-| Status | Boolean     | `true` or `false` |
+| Status | Boolean     | Returns whether the planet has been completed. `true` or `false` |
