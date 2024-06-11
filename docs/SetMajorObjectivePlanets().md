@@ -16,7 +16,7 @@ SetMajorObjectivePlanets() allows the Game Master or developers to update the li
 
 | Variable     | Value Type | Use          |
 |:---------------|:-----------|:-------------|
-| Status | Boolean     | `true` or `false` |
+| Status | Boolean     | Returns whether all planets in the table are completed. `true` or `false` |
 
 <h3>Examples</h3>
 
