@@ -12,5 +12,8 @@ The function can be called from inside of the game management script.
 |:---------------|:-----------|:-------------|
 | planetName `required` | String     | The name of the planet that will be updated. |
 
-<h3>returns</h3>
-`true` or `false`
+<h3>Returns</h3>
+
+| Variable     | Value Type | Use          |
+|:---------------|:-----------|:-------------|
+| Status | Boolean     | `true` or `false` |
