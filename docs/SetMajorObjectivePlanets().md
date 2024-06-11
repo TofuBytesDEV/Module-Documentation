@@ -12,6 +12,12 @@ SetMajorObjectivePlanets() allows the Game Master or developers to update the li
 |:---------------|:-----------|:-------------|
 | planetList `required` | Table     | A table of planet names. |
 
+<h3>Returns</h3>
+
+| Variable     | Value Type | Use          |
+|:---------------|:-----------|:-------------|
+| Status | Boolean     | `true` or `false` |
+
 <h3>Examples</h3>
 
 <h5>Updating the Planets</h5>
