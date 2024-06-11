@@ -7,7 +7,7 @@ parent: Modifying the Campaign
 <h2>UpdateActiveStatus(planetName,activeStatus)</h2>
 
 {: .warning }
-This is an emergency function and should only be used when needed. Refer to `UpdateCampaign()` to automatically enable/disable the planet status after a defend campaign.
+This is an emergency function and should only be used when needed. Refer to `UpdateCampaign()` to automatically enable/disable the planet status after any campaign.
 
 UpdateActiveStatus() allows the Game Master or developers to update a planet's active status. The function can be called from inside of the game management script and also called live from the in-game developer console as long as the `require(id)` variable is identified with the function.
 
