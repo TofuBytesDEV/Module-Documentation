@@ -22,7 +22,7 @@ This code will print the win and fail messages in the major objective.
 local Module = require(17541574273)
 local resultsList = Module.GetMajorObjectivePlanets()
 
-for -,v in pairs(resultsList) do
+for _,v in pairs(resultsList) do
 print(v)
 end
 ```
