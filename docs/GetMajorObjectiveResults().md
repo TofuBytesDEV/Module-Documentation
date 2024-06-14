@@ -24,4 +24,5 @@ local resultsList = Module.GetMajorObjectivePlanets()
 
 for -,v in pairs(resultsList) do
 print(v)
+end
 ```
