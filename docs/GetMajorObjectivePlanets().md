@@ -24,4 +24,5 @@ local planetList = Module.GetMajorObjectivePlanets()
 
 for -,v in pairs(planetList) do
 print(v.." is a part of the major objective.")
+end
 ```
