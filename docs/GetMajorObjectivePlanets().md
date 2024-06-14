@@ -22,7 +22,7 @@ This code will print each planet in the major objective.
 local Module = require(17541574273)
 local planetList = Module.GetMajorObjectivePlanets()
 
-for -,v in pairs(planetList) do
+for _,v in pairs(planetList) do
 print(v.." is a part of the major objective.")
 end
 ```
