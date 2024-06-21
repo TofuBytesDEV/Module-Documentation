@@ -19,7 +19,7 @@ SetMajorObjectiveResults() allows the Game Master or developers to update the re
 
 ```lua
 local campaignModule = require(17541574273)
-local winMessage = "Congrats, you wont!"
+local winMessage = "Congrats, you won!"
 local failMessage = "We failed!"
 campaignModule.SetMajorObjectiveResults(winMessage,failMessage)
 ```
